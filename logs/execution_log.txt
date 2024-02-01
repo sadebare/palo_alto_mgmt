@@ -1,0 +1,252 @@
+
+
+Timestamp: 2024-02-01 17:04:40
+Playbook: playbooks/get_system_info.yml
+Exit Code: 4
+
+
+
+Timestamp: 2024-02-01 17:07:10
+Playbook: playbooks/get_system_info.yml
+Exit Code: 0
+
+
+PLAY [Hello World Playbook] ****************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Print Hello World] *******************************************************
+ok: [localhost] => {
+    "msg": "Hello World!"
+}
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+
+
+Timestamp: 2024-02-01 17:07:42
+Playbook: playbooks/backup_system_config.yml
+Exit Code: 4
+
+
+
+Timestamp: 2024-02-01 17:08:36
+Playbook: playbooks/get_system_info.yml
+Exit Code: 0
+
+
+PLAY [Hello World Playbook] ****************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Print Hello World] *******************************************************
+ok: [localhost] => {
+    "msg": "Hello World!"
+}
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+
+
+Timestamp: 2024-02-01 17:18:47
+Playbook: playbooks/get_system_info.yml
+Exit Code: 0
+
+
+PLAY [Hello World Playbook] ****************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Print Hello World from get system info] **********************************
+ok: [localhost] => {
+    "msg": "Hello World from get system info!"
+}
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+
+
+Timestamp: 2024-02-01 17:19:01
+Playbook: playbooks/backup_system_config.yml
+Exit Code: 0
+
+
+PLAY [Hello World Playbook] ****************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Print Hello World from backup system config] *****************************
+ok: [localhost] => {
+    "msg": "Hello World from backup system cnfig!"
+}
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+
+
+Timestamp: 2024-02-01 17:19:05
+Playbook: playbooks/update_system_config.yml
+Exit Code: 0
+
+
+PLAY [Hello World Playbook] ****************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Print Hello World from update system config] *****************************
+ok: [localhost] => {
+    "msg": "Hello World from update system config!"
+}
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+
+
+Timestamp: 2024-02-01 17:19:07
+Playbook: playbooks/apply_pan_os_update.yml
+Exit Code: 0
+
+
+PLAY [Hello World Playbook] ****************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Print Hello World from pan OS update] ************************************
+ok: [localhost] => {
+    "msg": "Hello World from PAN OS update!"
+}
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+
+
+Timestamp: 2024-02-01 17:19:10
+Playbook: playbooks/apply_av_definition_update.yml
+Exit Code: 0
+
+
+PLAY [Hello World Playbook] ****************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Print Hello World from apply AV definition update] ***********************
+ok: [localhost] => {
+    "msg": "Hello World from apply AV definition update!"
+}
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+
+
+Timestamp: 2024-02-01 17:34:56
+Playbook: playbooks/get_system_info.yml
+Exit Code: 0
+
+
+PLAY [Hello World Playbook] ****************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Print Hello World from get system info] **********************************
+ok: [localhost] => {
+    "msg": "Hello World from get system info!"
+}
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+
+
+Timestamp: 2024-02-01 17:35:27
+Playbook: playbooks/backup_system_config.yml
+Exit Code: 0
+
+
+PLAY [Hello World Playbook] ****************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Print Hello World from backup system config] *****************************
+ok: [localhost] => {
+    "msg": "Hello World from backup system cnfig!"
+}
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+
+
+Timestamp: 2024-02-01 17:35:37
+Playbook: playbooks/update_system_config.yml
+Exit Code: 0
+
+
+PLAY [Hello World Playbook] ****************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Print Hello World from update system config] *****************************
+ok: [localhost] => {
+    "msg": "Hello World from update system config!"
+}
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+
+
+Timestamp: 2024-02-01 18:19:08
+Playbook: playbooks/get_system_info.yml
+Exit Code: 0
+
+
+PLAY [Hello World Playbook] ****************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Print Hello World from get system info] **********************************
+ok: [localhost] => {
+    "msg": "Hello World from get system info!"
+}
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+
+
+Timestamp: 2024-02-01 18:19:12
+Playbook: playbooks/backup_system_config.yml
+Exit Code: 0
+
+
+PLAY [Hello World Playbook] ****************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Print Hello World from backup system config] *****************************
+ok: [localhost] => {
+    "msg": "Hello World from backup system cnfig!"
+}
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
